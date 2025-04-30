@@ -14,13 +14,13 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <style>
-        	@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
 body {
     background-image: url('https://raw.githubusercontent.com/AlifKhan1911391/Naruto-The-Story-Where-Every-Character-Has-Their-Own-Fans/refs/heads/main/19742.jpg');
     margin: 0;
     font-family: 'Roboto', sans-serif;
-   
+
 }
 
 video {
@@ -41,7 +41,7 @@ video {
 }
 
 h1{
-	margin-bottom: 40px;
+        margin-bottom: 40px;
 }
 
 #nav ul {
@@ -85,6 +85,17 @@ h1{
 .activenav:hover {
   background-color: #00008B;
 }
+
+.audio-container {
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+audio {
+  width: 100%;
+}
+
 summary {
     font-family: 'Roboto', sans-serif;
     font-size: 15px; 
@@ -96,11 +107,11 @@ summary {
     border-radius: 5px;
     width: fit-content;
     margin:auto;
-    
+
 }
 .full-story{
-	font-size:15px;
-	line-spacing: 1.6em;	
+        font-size:15px;
+        line-spacing: 1.6em;        
     font-family: "Tagesschrift", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -119,26 +130,41 @@ img {
 }
 
 .name{
-	margin-bottom: 20px;
-	font-family: "Cal Sans", sans-serif;
+        margin-bottom: 20px;
+        font-family: "Cal Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
     color: #191970;
-	}
+        }
 
 .description{
-	margin-bottom: 40px;
-	margin-top: 40px;
-	font-family: "Exo 2", sans-serif;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+        }
+
+.download-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.download-btn:hover {
+  background: #45a049;
+}
+
+#download{
+	display: flex;
+justify-content: center;
 	}
-	
-	  
-
-
 .villain-head {
     font-family: Arial, sans-serif;
     font-size: 36px;
@@ -174,7 +200,7 @@ strong {
     font-weight: bold;
 }
 
-	
+
 .villain-div {
   border-radius: 30px;
   background-color: #d0e3f1;
@@ -201,20 +227,20 @@ strong {
 
 @media (min-width:450px) and (orientation: landscape) {
 
-	.pc-responsive{
-		max-width: 100%;
-		margin: auto;
-	}
+        .pc-responsive{
+                max-width: 100%;
+                margin: auto;
+        }
 
 
 .full-story {
-    
+
     text-align: center; 
 }
 
 
 }
-    
+
 </style>
 </head>
 
@@ -222,12 +248,12 @@ strong {
 <body>
 <div class="pc-responsive">
 
-	<div id="nav">
-    	<ul>
+        <div id="nav">
+            <ul>
 <li><a href="#" class="activenav">Home</a></li>
 <li><a href="about-me.html">About Me</a></li>
 <li><a href="https://github.com/AlifKhan1911391">See My Projects</a></li> </ul>
-    	</div><br><br>
+            </div><br><br>
 
 
 
@@ -240,27 +266,31 @@ strong {
     Your browser does not support the video tag.
   </video>
   </div>
- <div style="padding: 20px;">
-  <audio controls loop style="max-width: 700px; width: 100%;">
-    <source src="Naruto Shippuden - Opening 3 (Creditless) (HD - 60 fps)(MP3_160K).mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</div>
+  </div> 
+
+<div class="audio-container">
+    <audio controls loop>
+      <source src="https://github.com/AlifKhan1911391/Naruto-The-Story-Where-Every-Character-Has-Their-Own-Fans/raw/main/Naruto%20Shippuden%20-%20Opening%203%20(Creditless)%20(HD%20-%2060%20fps)(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+<div id="download">    <a href="https://github.com/AlifKhan1911391/Naruto-The-Story-Where-Every-Character-Has-Their-Own-Fans/raw/main/Naruto%20Shippuden%20-%20Opening%203%20(Creditless)%20(HD%20-%2060%20fps)(MP3_160K).mp3" download class="download-btn">
+      Download MP3
+    </a></div>
   </div>
+  
 
 <div class= "container">
   <div class="story">
-  	<details>
-  	<summary><p align="center">Click to see full Naruto story at a glance<p style="color: red;" align="center">(SPOILER ALERT!!!)</p></p> </summary >
+          <details>
+          <summary><p align="center">Click to see full Naruto story at a glance<p style="color: red;" align="center">(SPOILER ALERT!!!)</p></p> </summary >
 <p class="full-story"> 
 <img src="https://raw.githubusercontent.com/AlifKhan1911391/Naruto-The-Story-Where-Every-Character-Has-Their-Own-Fans/refs/heads/main/Nine-Tailed_Demon_Fox.png" title="Nine Tailed Demon Fox" alt="Image loading failed" style="width: 100%; height: auto;">
 <br><br><br>
 A powerful fox known as the Nine-Tails attacks the ninja village Konoha. In response, the leader of Konoha -the Fourth Hokage -seals the fox inside his newborn son Naruto Uzumaki at the cost of his life. As a child, Naruto is isolated from the Konoha community, who regards him as if he was the Nine-Tails itself. A decree made by the current Kage, the Third Hokage, forbids anyone mentioning the Nine-Tails to anyone else. Twelve years later, renegade ninja Mizuki reveals Naruto the truth before being defeated by Naruto with the Shadow Clone Jutsu, earning the respect of his teacher Iruka Umino. Shortly after, Naruto becomes a ninja and is assigned alongside Sasuke Uchiha, whom he often competes against, and Sakura Haruno, whom he has a crush on, to form a three-person team named Team 7 under an experienced sensei, the elite ninja Kakashi Hatake. Like all the ninja teams from every village, Team 7 is charged with completing missions requested by villagers, ranging from doing chores, and being bodyguards or executing assassinations.<br><br>
- 
+
 After several missions, most notably one to the Land of Waves, Kakashi allows Team 7 to participate in a ninja exam in which they can advance to a higher rank, and thus take part in more difficult missions. During the exams, Orochimaru, a top-wanted criminal, invades Konoha and kills the Third Hokage in an act of revenge. This forces one of the three legendary ninja, Jiraiya, to search with Naruto for Tsunade, who has been nominated to become the Fifth Hokage. During the search, it is revealed that Orochimaru desires to acquire Sasuke due to his powerful genetic heritage, the Sharingan. Believing Orochimaru will be able to give him the strength needed to kill his older brother Itachi, who destroyed their clan, Sasuke eventually joins him after a humiliating defeat at his brother's hands. Tsunade sends a group of ninja including Naruto to retrieve Sasuke, but Naruto is unable to bring him back to the village. Naruto and Sakura do not give up on Sasuke, however, and the former leaves Konoha to train under Jiraiya's tutelage in order to prepare himself for the next time he encounters Sasuke, while the latter becomes Tsunade's apprentice.<br><br>
- 
+
 Two and a half years later, Naruto returns from his training with Jiraiya, and the criminal organization called Akatsuki, from which Itachi is a member, starts kidnapping the hosts of the nine powerful Tailed Beasts, including the Nine-Tails sealed inside of Naruto, to extract them. Several ninjas from Konoha, including Team 7, fight against the Akatsuki members and search for their teammate Sasuke. Akatsuki is successful in capturing seven of those creatures whose hosts are killed in the process, except for Gaara, the host of the One-Tail whose life is saved in time by Naruto and his comrades. In the meantime, Sasuke betrays Orochimaru and faces Itachi to take revenge. After Itachi dies in battle, Sasuke learns from the Akatsuki founder Tobi that Itachi was ordered by Konoha's superiors to destroy his clan to prevent a coup d'état to which he accepted with the condition of allowing Sasuke to be spared. Saddened with this revelation, Sasuke joins forces with Akatsuki to kill Konoha's superiors who orchestrated the Uchihas' elimination and destroy Konoha to exact revenge. Meanwhile, as several Akatsuki members are defeated by Konoha ninjas, their figurehead leader, Nagato, kills Jiraiya and devastates Konoha. However, Naruto defeats and redeems him, reviving those who perished and earning the village's respect and admiration as a result.<br><br>
- 
+
 With Nagato's eventual death, Tobi, while disguised as one of Konoha's founding fathers Madara Uchiha, announces that he wants to obtain all nine of the tailed beasts in order to perform an illusion powerful enough to control all of humanity, in an effort to create supposedly world peace. The leaders of the five ninja villages refuse to aid him and instead join forces to confront Tobi and his allies. This results in a fourth ninja world war between the unified armies of the Five Great Countries (collectively known as the Allied Shinobi Forces) and Akatsuki's forces of zombie-like ninjas. Naruto, and Killer Bee, the host of the Eight-Tails, head for the battlefield refusing to sit back as instructed. During the conflict, it is revealed that Tobi is actually Obito Uchiha, Kakashi's former teammate who was thought to be dead, but he was saved by the real Madara and has been working with him ever since. As Sasuke learns the history of Konoha, including the circumstances that led to his clan's downfall, he decides to protect the village and rejoins Naruto and Sakura to stop Madara and Obito's plans, which unleash the Ten-Tails. However, Madara's body ends up possessed by Kaguya Ōtsutsuki, an ancient princess who intends to subdue all of mankind, and a reformed Obito sacrifices himself to help Team 7 stop her. Once Kaguya is sealed, Madara dies as well, but Sasuke takes advantage of the situation and takes control of all the Tailed Beasts to realize his true goal of ending the current village system. Naruto confronts Sasuke to dissuade him, and after they almost kill each other in a final battle, Sasuke admits defeat and reforms. After the war, Kakashi is chosen to become the Sixth Hokage and pardons Sasuke of his crimes. Years later, Kakashi steps down and Naruto becomes the Seventh Hokage, raising the next genaration.<br><br>
 </p>
 </details>
@@ -269,8 +299,8 @@ With Nagato's eventual death, Tobi, while disguised as one of Konoha's founding 
 
 <div><p><br><br></p><div>
 
-	<details>
-  	<summary><p align="center">Click to see the main purpose of the naruto anime<p  align="center" style="color: red;">(SPOILER ALERT!!!)</p></p> </summary >
+        <details>
+          <summary><p align="center">Click to see the main purpose of the naruto anime<p  align="center" style="color: red;">(SPOILER ALERT!!!)</p></p> </summary >
  <p class="full-story">
 <br><br><br>
 The anime Naruto tells the story of a world trapped in endless war, hatred, and loneliness, where people hurt each other again and again because they cannot understand one another's pain. At the heart of it all is Naruto Uzumaki, a boy who starts out completely alone, rejected by everyone in his village, but who dreams of one day being loved, accepted, and recognized as someone important. As Naruto grows, the anime shows a much bigger idea: it's not just about him becoming stronger — it's about finding a way to heal the world. Naruto is about teaching that true peace cannot be forced by power, and cannot be built on lies; it can only come by facing pain, forgiving others, and connecting heart to heart, even when it's hard.<br><br>
@@ -287,7 +317,7 @@ In the end, Naruto as an anime is not the story of Madara’s dream — it’s t
  <div class="container">
 
   <div>
-  	<h4 class="name">Madara Uchiha</h4>
+          <h4 class="name">Madara Uchiha</h4>
 <img src="https://raw.githubusercontent.com/AlifKhan1911391/Naruto-The-Story-Where-Every-Character-Has-Their-Own-Fans/refs/heads/main/RDT_20250428_1424348080545403930383819.jpg" alt="Image loading failed" title="Madara Uchiha">
 <p class="description">
     Madara Uchiha stands as one of the most formidable and complex antagonists in Naruto history. As the co-founder of Konohagakure and former leader of the Uchiha clan, his combat prowess is legendary - wielding the Eternal Mangekyō Sharingan, Rinnegan, and later becoming the Ten-Tails' jinchūriki. What makes Madara special is his philosophical depth; his "Eye of the Moon Plan" stemmed from genuine (though twisted) desire to end war through infinite tsukuyomi. Fans adore his overwhelming power displayed in battles against entire armies and the Five Kage, his iconic design with long wild hair and armor, and his memorable quotes about power and reality. His backstory with Hashirama Senju creates a tragic dimension to his character, showing how the shinobi system corrupted even the strongest will. The sheer spectacle of his Susanoo, meteor-summoning abilities, and god-like presence make every scene he's in electrifying. Madara represents the ultimate test for Naruto's ideology, forcing fans to confront difficult questions about peace versus control.
@@ -352,14 +382,14 @@ In the end, Naruto as an anime is not the story of Madara’s dream — it’s t
 <p class="description">
     Minato Namikaze, the Fourth Hokage known as "Konoha's Yellow Flash," set the standard for speed and tactical brilliance in the ninja world. His Flying Thunder God Technique - teleporting via special kunai markings - made him untouchable in battle, earning him flee-on-sight orders during wars. What makes Minato special is how he balances overwhelming power with warm humanity; his sacrifice to seal Kurama into newborn Naruto shows ultimate parental love. Fans adore his design (spiky blond hair, Hokage cloak over jonin uniform), his Rasengan (which he invented in just three years), and his quick-thinking strategies. His brief reanimation during the war demonstrates why he was feared - instantly analyzing Obito's Kamui and countering it perfectly. People love his relationship with Kushina (their playful dynamic contrasts their legendary status), and how his legacy lives through Naruto's growth. Minato represents the ideal shinobi - powerful yet humble, strategic yet compassionate. His sealing techniques (including the Dead Demon Consuming Seal) show incredible fuinjutsu mastery, while his natural leadership united Konoha during crises. The revelation that he was Naruto's father added emotional depth to both characters, and his final moments with Kushina telling baby Naruto their hopes for him remains one of the series' most touching scenes.
 </p></div>
-  
-  
-  
-  
-  
-  
-  <div class="villain-div">  	
- <br> 	
+
+
+
+
+
+
+  <div class="villain-div">          
+ <br>         
 <h1 class="villain-head">Villains Are Not Born, They Are Made — Lessons from Naruto</h1>
 
 <p class="texts">In the world of <em>Naruto</em>, battles between heroes and villains shape the story. Yet if we look closer, the so-called villains aren't simply evil by nature. Instead, <em>Naruto</em> teaches us a deeper truth: <strong>villains are not born — they are made</strong>. Circumstances, loss, pain, and betrayal transform ordinary people into antagonists. Behind every enemy stands a broken heart and a tragic past. Let's explore how this theme runs deep through <em>Naruto</em>, making its world feel real, human, and unforgettable.</p>
@@ -403,9 +433,9 @@ This powerful message echoes across every arc of <em>Naruto</em>. Pain, Obito, I
 <p class="texts">Through Naruto’s journey, we learn that healing hatred requires more than fighting. It requires love, understanding, and hope. Every villain is a wounded soul crying out for peace — and it’s only through empathy that true peace can ever be achieved.</p>
 <p class="texts">When we see others through the lens of their pain, maybe we, too, can break the cycle of hatred in our own world.</p>
 </div>
-  
+
   <div id="introduction">
-  	<p>  
+          <p>  
 Hey there! I'm Alif.<br><br>  
 I tried to explain the deeper meaning behind Naruto - why it's more than just awesome fights and flashy jutsu. At its core, it's about how pain shapes people, how villains aren't born but made, and how even the most broken souls can find redemption.<br><br>  
 The Infinite Tsukuyomi represents something scary real - the temptation to escape into perfect illusions rather than face life's struggles. Don't we all do this sometimes? Scrolling endlessly, chasing quick dopamine hits, avoiding our real problems?<br><br>  
