@@ -104,25 +104,26 @@ details {
     margin-bottom: 20px;
     transition: all 0.3s ease-out;
     overflow: hidden;
-
-}
-
-details[open] {
-    max-height: 2000px;
-    transition: all 0.5s ease-in;
 }
 
 details summary {
     cursor: pointer;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
 }
 
 details summary:hover {
     color: #4169E1;
+    background-color: #cfd8dc;
 }
 
 details summary::marker {
     transition: transform 0.3s ease;
+    color: #333;
 }
 
 details[open] summary::marker {
@@ -135,36 +136,14 @@ details .full-story {
     transition: 
         opacity 0.4s ease,
         transform 0.4s ease;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 details[open] .full-story {
     opacity: 1;
     transform: translateY(0);
 }
-
-
-summary {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px; 
-    font-weight: normal;
-    color: #333;
-    background-color: #b0bec5;
-    padding: 8px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    width: fit-content;
-    margin:auto;
-
-}
-.full-story{
-        font-size:15px;
-        line-spacing: 1.6em;        
-    font-family: "Tagesschrift", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    padding: 0 10px;
-}
-
 img {
   display: block;
   width: 100%;
