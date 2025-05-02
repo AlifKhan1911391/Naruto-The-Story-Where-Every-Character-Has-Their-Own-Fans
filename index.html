@@ -100,6 +100,48 @@ audio {
   width: 100%;
 }
 
+details {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    max-height: 40px; 
+}
+
+details[open] {
+    max-height: 2000px;
+    transition: all 0.5s ease-in;
+}
+
+details summary {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+details summary:hover {
+    color: #4169E1;
+}
+
+details summary::marker {
+    transition: transform 0.3s ease;
+}
+
+details[open] summary::marker {
+    transform: rotate(90deg);
+}
+
+details .full-story {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 
+        opacity 0.4s ease,
+        transform 0.4s ease;
+}
+
+details[open] .full-story {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 summary {
     font-family: 'Roboto', sans-serif;
@@ -326,7 +368,7 @@ In the end, Naruto as an anime is not the story of Madara’s dream — it’s t
  </details> </div>
 
 <div><p><br><br></p><div>
- 
+
  <details>
   <summary>Click here to view some edits</summary>
   <div>
@@ -343,7 +385,7 @@ In the end, Naruto as an anime is not the story of Madara’s dream — it’s t
     </video>
   </div>
 </details>
- 
+
   </div>
  <div class="container">
 
